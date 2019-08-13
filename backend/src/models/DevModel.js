@@ -20,7 +20,7 @@ const DevSchema = new Schema({
     }],
     dislikes: []
 }, {
-    timestamps: true
+    timestamps: true //createdAt e updatedAt sao criadas automaticamente
 })
 
 module.exports = model('Dev', DevSchema)
